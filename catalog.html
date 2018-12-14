@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<title>Ceramo Catalog</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.3.5/jquery.fancybox.min.css">
+	<link rel="stylesheet" href="css/styles.css">
+	<link rel="stylesheet" href="css/media.css">
+</head>
+<body>
+	<header class="header">
+		<div class="header_top">
+			<div class="container header__container">
+				<ul class="header_top__nav">
+					<li><a href="#" class="header_top__nav-link">О компании</a></li>
+					<li><a href="#" class="header_top__nav-link">Акции</a></li>
+					<li><a href="#" class="header_top__nav-link">Доставка и оплата</a></li>
+					<li><a href="#" class="header_top__nav-link">Адреса магазинов</a></li>
+					<li><a href="#" class="header_top__nav-link">Гарантия и возврат</a></li>
+					<li><a href="#" class="header_top__nav-link">Контакты</a></li>
+				</ul>
+				<div class="header_top__soc">
+					<a href="#" target="_blank" class="header_top__soc-link">
+						<img src="img/header_top__soc_1.png" alt="header_top__soc.png">
+					</a>
+					<a href="#" target="_blank" class="header_top__soc-link">
+						<img src="img/header_top__soc_2.png" alt="header_top__soc.png">
+					</a>
+					<a href="#" target="_blank" class="header_top__soc-link">
+						<img src="img/header_top__soc_3.png" alt="header_top__soc.png">
+					</a>
+				</div>
+			</div>
+		</div>
+		<div class="header_bot">
+			<div class="container header__container">
+				<a href="#" class="header__logo"><img src="img/main-logo.png" alt="main-logo.png"><span>keramogranit63.ru</span></a>
+				<form action="#" class="header-search__wrp">
+					<input type="text" class="header-search__input" value="Поиск">
+					<input type="submit" class="header-search__submit" value="">
+				</form>
+				<div class="header__info-item header__info-item_geo">
+					<div class="header__info-item-ttl">
+						ул. Красноармейская 1А, офис 503
+					</div>
+					<a href="mailto:zakaz@keramogranit63.ru">zakaz@keramogranit63.ru</a>
+				</div>
+				<div class="header__info-item header__info-item_tel">
+					<a href="tel:89007001321" class="header__info-item-ttl">
+						8 (900) 700-13-21
+					</a>
+					<a href="#popup_call" data-fancybox>Обратная связь</a>
+				</div>
+				<a href="#"><img src="img/cab__icon.png" alt="cab__icon.png"></a>
+				<a href="#" class="cart__link-wrp">
+					<img src="img/cart__icon.png" alt="cart__icon.png">
+					<span class="cart__value">2</span>
+				</a>
+				<a href="#"><img src="img/fav__icon.png" alt="fav__icon.png"></a>
+			</div>
+		</div>
+		<div class="main-nav__wrp">
+			<div class="main-nav__supply">
+				<div class="container">
+					<span>Все производители:</span>
+					<a href="#" class="main-nav__supply-link">A B C D E F G H I J K L M N O P Q R S T U B W Y Z А Б В Г Д Е Ё Ж З И Й К Л М Н О П Р С Т У Ф Х Ц Ч Ш Щ Ъ Ы Ь Э Ю Я 0-9</a>
+				</div>
+			</div>
+			<div class="container">
+				<ul class="main-nav">
+					<li><a href="#" class="main-nav__link">Каталог продукции</a></li>
+					<li><a href="#" class="main-nav__link">Новые коллекции</a></li>
+					<li><a href="#" class="main-nav__link">Популярные коллекции</a></li>
+					<li><a href="#" class="main-nav__link">Страна производитель</a></li>
+					<li><a href="#" class="main-nav__link">Распродажа</a></li>
+				</ul>
+			</div>
+			
+		</div>
+	</header>
+	<main class="container catalog">
+		<ul class="breadcrumb">
+			<li><a href="#">Главная</a></li>
+			<li><a href="#">Каталог</a></li>
+			<li><a href="#">Керамическая плитка</a></li>
+			<li class="active">Мозаика</li>
+		</ul>
+		<form action="" class="cat-filter__wrp">
+			<div class="input__wrp cat-fliter__reset-wrp">
+				<input type="reset" class="cat-filter__reset" value="Сбросить параметр">
+			</div>
+			
+			<div class="cat-fliter fr">
+				<div class="input__wrp select__wrp cat-filter__item-wrp fi-4">
+					<select name="cat-filter__item">
+						<option value="-1">Выберите категорию</option>
+						<option value="1">1</option>
+						<option value="2">2</option>
+						<option
+						 value="3">3</option>
+					</select>
+				</div>
+				<div class="input__wrp select__wrp cat-filter__item-wrp fi-4">
+					<select name="cat-filter__item">
+						<option value="-1">Выберите категорию</option>
+						<option value="1">1</option>
+						<option value="2">2</option>
+						<option value="3">3</option>
+					</select>
+				</div>
+				<div class="input__wrp select__wrp cat-filter__item-wrp fi-4">
+					<select name="cat-filter__item">
+						<option value="-1">Выберите категорию</option>
+						<option value="1">1</option>
+						<option value="2">2</option>
+						<option value="3">3</option>
+					</select>
+				</div>
+				<div class="input__wrp select__wrp cat-filter__item-wrp fi-4">
+					<select name="cat-filter__item">
+						<option value="-1">Выберите категорию</option>
+						<option value="1">1</option>
+						<option value="2">2</option>
+						<option value="3">3</option>
+					</select>
+				</div>
+				<div class="input__wrp select__wrp cat-filter__item-wrp fi-4">
+					<select name="cat-filter__item">
+						<option value="-1">Выберите категорию</option>
+						<option value="1">1</option>
+						<option value="2">2</option>
+						<option value="3">3</option>
+					</select>
+				</div>
+				<div class="input__wrp select__wrp cat-filter__item-wrp fi-4">
+					<select name="cat-filter__item">
+						<option value="-1">Выберите категорию</option>
+						<option value="1">1</option>
+						<option value="2">2</option>
+						<option value="3">3</option>
+					</select>
+				</div>
+				<div class="input__wrp select__wrp cat-filter__item-wrp fi-4">
+					<select name="cat-filter__item">
+						<option value="-1">Выберите категорию</option>
+						<option value="1">1</option>
+						<option value="2">2</option>
+						<option value="3">3</option>
+					</select>
+				</div>
+				<div class="input__wrp select__wrp cat-filter__item-wrp fi-4">
+					<select name="cat-filter__item">
+						<option value="-1">Выберите категорию</option>
+						<option value="1">1</option>
+						<option value="2">2</option>
+						<option value="3">3</option>
+					</select>
+				</div>
+				<div class="input__wrp select__wrp cat-filter__item-wrp fi-4">
+					<select name="cat-filter__item">
+						<option value="-1">Выберите категорию</option>
+						<option value="1">1</option>
+						<option value="2">2</option>
+						<option value="3">3</option>
+					</select>
+				</div>
+				<div class="input__wrp select__wrp cat-filter__item-wrp fi-4">
+					<select name="cat-filter__item">
+						<option value="-1">Выберите категорию</option>
+						<option value="1">1</option>
+						<option value="2">2</option>
+						<option value="3">3</option>
+					</select>
+				</div>
+				<div class="input__wrp select__wrp cat-filter__item-wrp fi-4">
+					<select name="cat-filter__item">
+						<option value="-1">Выберите категорию</option>
+						<option value="1">1</option>
+						<option value="2">2</option>
+						<option value="3">3</option>
+					</select>
+				</div>
+				<div class="input__wrp select__wrp cat-filter__item-wrp fi-4">
+					<select name="cat-filter__item">
+						<option value="-1">Выберите категорию</option>
+						<option value="1">1</option>
+						<option value="2">2</option>
+						<option value="3">3</option>
+					</select>
+				</div>
+			</div>
+		</form>
+		<div class="cat__inner">
+			<div class="section__ttl-wrp">
+				<div class="cat-results__wrp">
+					<span>Найдено:</span>
+					<h3 class="section__ttl">100 коллекций</h3>
+				</div>
+				
+				<div class="cat__btns-wrp">
+					<a href="#" class="btn btn_transp active">Хиты продаж</a>
+					<a href="#" class="btn btn_transp">Новинки</a>
+					<a href="#" class="btn btn_transp">Акции</a>
+				</div>
+			</div>
+			
+			<div class="cat__list-wrp">
+				<div class="cat__list fr">
+					<div class="cat__item shd fi-4">
+						<div class="cat__item-ttl">
+							<span>Timeless</span>
+							<span>Ragno (Италия)</span>
+						</div>
+						<div class="cat__item-img" style="background-image: url(img/offers__item-img.jpg);"></div>
+						<table class="cat__item-info">
+							<tr>
+								<td>Размер:</td>
+								<td>60х60</td>
+							</tr>
+							<tr>
+								<td>Стиль:</td>
+								<td>современный</td>
+							</tr>
+							<tr>
+								<td>Цена:</td>
+								<td><b>1900</b> руб/м<sup>2</sup></td>
+							</tr>
+						</table>
+						<a href="#" class="btn cat__item-btn">Купить</a>
+						<a href="#" class="cat__item-fav">Добавить в избранное</a>
+						<a href="#" class="cat__item-click">Заказать в один клик</a>
+					</div>
+					<div class="cat__item shd fi-4">
+						<div class="cat__item-ttl">
+							<span>Timeless</span>
+							<span>Ragno (Италия)</span>
+						</div>
+						<div class="cat__item-img" style="background-image: url(img/offers__item-img.jpg);"></div>
+						<table class="cat__item-info">
+							<tr>
+								<td>Размер:</td>
+								<td>60х60</td>
+							</tr>
+							<tr>
+								<td>Стиль:</td>
+								<td>современный</td>
+							</tr>
+							<tr>
+								<td>Цена:</td>
+								<td><b>1900</b> руб/м<sup>2</sup></td>
+							</tr>
+						</table>
+						<a href="#" class="btn cat__item-btn">Купить</a>
+						<a href="#" class="cat__item-fav">Добавить в избранное</a>
+						<a href="#" class="cat__item-click">Заказать в один клик</a>
+					</div>
+					<div class="cat__item shd fi-4">
+						<div class="cat__item-ttl">
+							<span>Timeless</span>
+							<span>Ragno (Италия)</span>
+						</div>
+						<div class="cat__item-img" style="background-image: url(img/offers__item-img.jpg);"></div>
+						<table class="cat__item-info">
+							<tr>
+								<td>Размер:</td>
+								<td>60х60</td>
+							</tr>
+							<tr>
+								<td>Стиль:</td>
+								<td>современный</td>
+							</tr>
+							<tr>
+								<td>Цена:</td>
+								<td><b>1900</b> руб/м<sup>2</sup></td>
+							</tr>
+						</table>
+						<a href="#" class="btn cat__item-btn">Купить</a>
+						<a href="#" class="cat__item-fav">Добавить в избранное</a>
+						<a href="#" class="cat__item-click">Заказать в один клик</a>
+					</div>
+					<div class="cat__item shd fi-4">
+						<div class="cat__item-ttl">
+							<span>Timeless</span>
+							<span>Ragno (Италия)</span>
+						</div>
+						<div class="cat__item-img" style="background-image: url(img/offers__item-img.jpg);"></div>
+						<table class="cat__item-info">
+							<tr>
+								<td>Размер:</td>
+								<td>60х60</td>
+							</tr>
+							<tr>
+								<td>Стиль:</td>
+								<td>современный</td>
+							</tr>
+							<tr>
+								<td>Цена:</td>
+								<td><b>1900</b> руб/м<sup>2</sup></td>
+							</tr>
+						</table>
+						<a href="#" class="btn cat__item-btn">Купить</a>
+						<a href="#" class="cat__item-fav">Добавить в избранное</a>
+						<a href="#" class="cat__item-click">Заказать в один клик</a>
+					</div>
+					<div class="cat__item shd fi-4">
+						<div class="cat__item-ttl">
+							<span>Timeless</span>
+							<span>Ragno (Италия)</span>
+						</div>
+						<div class="cat__item-img" style="background-image: url(img/offers__item-img.jpg);"></div>
+						<table class="cat__item-info">
+							<tr>
+								<td>Размер:</td>
+								<td>60х60</td>
+							</tr>
+							<tr>
+								<td>Стиль:</td>
+								<td>современный</td>
+							</tr>
+							<tr>
+								<td>Цена:</td>
+								<td><b>1900</b> руб/м<sup>2</sup></td>
+							</tr>
+						</table>
+						<a href="#" class="btn cat__item-btn">Купить</a>
+						<a href="#" class="cat__item-fav">Добавить в избранное</a>
+						<a href="#" class="cat__item-click">Заказать в один клик</a>
+					</div>
+					<div class="cat__item shd fi-4">
+						<div class="cat__item-ttl">
+							<span>Timeless</span>
+							<span>Ragno (Италия)</span>
+						</div>
+						<div class="cat__item-img" style="background-image: url(img/offers__item-img.jpg);"></div>
+						<table class="cat__item-info">
+							<tr>
+								<td>Размер:</td>
+								<td>60х60</td>
+							</tr>
+							<tr>
+								<td>Стиль:</td>
+								<td>современный</td>
+							</tr>
+							<tr>
+								<td>Цена:</td>
+								<td><b>1900</b> руб/м<sup>2</sup></td>
+							</tr>
+						</table>
+						<a href="#" class="btn cat__item-btn">Купить</a>
+						<a href="#" class="cat__item-fav">Добавить в избранное</a>
+						<a href="#" class="cat__item-click">Заказать в один клик</a>
+					</div>
+					<div class="cat__item shd fi-4">
+						<div class="cat__item-ttl">
+							<span>Timeless</span>
+							<span>Ragno (Италия)</span>
+						</div>
+						<div class="cat__item-img" style="background-image: url(img/offers__item-img.jpg);"></div>
+						<table class="cat__item-info">
+							<tr>
+								<td>Размер:</td>
+								<td>60х60</td>
+							</tr>
+							<tr>
+								<td>Стиль:</td>
+								<td>современный</td>
+							</tr>
+							<tr>
+								<td>Цена:</td>
+								<td><b>1900</b> руб/м<sup>2</sup></td>
+							</tr>
+						</table>
+						<a href="#" class="btn cat__item-btn">Купить</a>
+						<a href="#" class="cat__item-fav">Добавить в избранное</a>
+						<a href="#" class="cat__item-click">Заказать в один клик</a>
+					</div>
+					<div class="cat__item shd fi-4">
+						<div class="cat__item-ttl">
+							<span>Timeless</span>
+							<span>Ragno (Италия)</span>
+						</div>
+						<div class="cat__item-img" style="background-image: url(img/offers__item-img.jpg);"></div>
+						<table class="cat__item-info">
+							<tr>
+								<td>Размер:</td>
+								<td>60х60</td>
+							</tr>
+							<tr>
+								<td>Стиль:</td>
+								<td>современный</td>
+							</tr>
+							<tr>
+								<td>Цена:</td>
+								<td><b>1900</b> руб/м<sup>2</sup></td>
+							</tr>
+						</table>
+						<a href="#" class="btn cat__item-btn">Купить</a>
+						<a href="#" class="cat__item-fav">Добавить в избранное</a>
+						<a href="#" class="cat__item-click">Заказать в один клик</a>
+					</div>
+				</div>
+				<a href="#" class="cat__list-btn btn">Показать еще</a>
+			</div>	
+		</div>
+	</main>
+	<footer class="footer">
+		<div class="container footer__container">
+			<a href="#" class="footer__logo">
+				<img src="img/main-logo.png" alt="main-logo.png">
+				<div class="footer__logo-cnt">
+					<span>keramogranit63.ru</span>
+					<span>2006–2018 © Керамогранит63.ру</span>
+				</div>
+			</a>
+			<ul class="footer__nav">
+				<li><a href="#" class="footer__nav-link">О компании</a></li>
+				<li><a href="#" class="footer__nav-link">Новости</a></li>
+				<li><a href="#" class="footer__nav-link">Контакты</a></li>
+				<li><a href="#" class="footer__nav-link">Производители</a></li>
+			</ul>
+			<ul class="footer__nav">
+				<li><a href="#" class="footer__nav-link">Акции</a></li>
+				<li><a href="#" class="footer__nav-link">Доставка и оплата</a></li>
+				<li><a href="#" class="footer__nav-link">Гарантия и возврат</a></li>
+				<li><a href="#" class="footer__nav-link">Вопрос-ответ</a></li>
+			</ul>
+			<div class="footer__info">
+				<a href="tel:89007001221" class="footer__info-item footer__info-item_tel">8 (900) 700-13-21</a>
+				<div class="footer__info-item footer__info-item_geo">ул. Красноармейская 1А, офис 503</div>
+				<div class="footer__info_bot">
+					<div class="footer__info-soc">
+						<a href="#" target="_blank" class="footer__info-soc-link">
+							<img src="img/header_top__soc_1.png" alt="footer__info-soc-link.png">
+						</a>
+						<a href="#" target="_blank" class="footer__info-soc-link">
+							<img src="img/header_top__soc_2.png" alt="footer__info-soc-link.png">
+						</a>
+						<a href="#" target="_blank" class="footer__info-soc-link">
+							<img src="img/header_top__soc_3.png" alt="footer__info-soc-link.png">
+						</a>
+					</div>
+					<a href="http://akticom.ru/" target="_blank" title="Перейти на сайт разработчика" class="footer__akticom">Создание сайта <span>"Актиком"</span></a>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<div id="popup_call" class="popup__container" style="display:none">
+		<div  class="popup__wrp popup_call__wrp">
+			<form action="[[~[[*id]]]]" method="post" class="popup">
+				<h3 class="popup__ttl">Оставьте заявку</h3>
+				<div class="input__wrp input__wrp_name">
+					<input type="text" class="form__input" name="popup_call__name" placeholder="Ваше имя" required="">
+				</div>
+				<div class="input__wrp input__wrp_tel">
+					<input type="tel" class="form__input" name="popup_call__tel" placeholder="Телефон" required="">
+				</div>
+				<div class="input__wrp input__wrp_mail">
+					<input type="email" class="form__input" name="popup_call__email" placeholder="E-mail">
+				</div>
+				<input type="submit" class="btn form__input form__input_submit" name="popup_call__sumbit" value="Заказать">
+				<div class="popup__policy">
+					Нажимая кнопку "Отправить", вы соглашаетесь с <a href="#" class="form__policy-link">политикой конфиденциальности</a>
+				</div>
+			</form>
+		</div>
+	</div>
+	<script
+    src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.3.5/jquery.fancybox.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+	<script src="js/main.js"></script>
+</body>
+</html>
